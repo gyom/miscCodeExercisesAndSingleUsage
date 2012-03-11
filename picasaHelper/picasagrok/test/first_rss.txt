@@ -1,0 +1,30 @@
+-----------------------------F9E5373315C2
+Content-Disposition: form-data; name="rss"
+Content-Type: text/plain; charset=utf-8
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:photo="http://www.pheed.com/pheed/" xmlns:media="http://search.yahoo.com/msrss/">
+ <clientlanguage>en</clientlanguage>
+ <channel>
+  <item>
+   <title>Screen shot 2010-07-04 at 9.14.34 PM.png</title>
+   <photo:thumbnail>http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/thumb/708bce5cd1f320a6.jpg</photo:thumbnail>
+   <photo:imgsrc>http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/image/708bce5cd1f320a6.jpg</photo:imgsrc>
+   <media:group>
+    <media:content url="http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/image/708bce5cd1f320a6.jpg" width="430" height="515" isDefault="true"/>
+    <media:thumbnail url="http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/thumb/708bce5cd1f320a6.jpg" width="121" height="144"/>
+    <media:content url="http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/original/708bce5cd1f320a6" width="430" height="515" fileSize="915951" type="image/png"/>
+   </media:group>
+  </item>
+  <item>
+   <title>Screen shot 2010-07-04 at 9.14.35 PM.png</title>
+   <photo:thumbnail>http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/thumb/5f649c0c6ee366d3.jpg</photo:thumbnail>
+   <photo:imgsrc>http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/image/5f649c0c6ee366d3.jpg</photo:imgsrc>
+   <media:group>
+    <media:content url="http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/image/5f649c0c6ee366d3.jpg" width="438" height="526" isDefault="true"/>
+    <media:thumbnail url="http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/thumb/5f649c0c6ee366d3.jpg" width="120" height="144"/>
+    <media:content url="http://localhost:61319/2d905bcd732e4c0afa315aef788a607d/original/5f649c0c6ee366d3" width="438" height="526" fileSize="854627" type="image/png"/>
+   </media:group>
+  </item>
+ </channel>
+</rss>
+-----------------------------F9E5373315C2--

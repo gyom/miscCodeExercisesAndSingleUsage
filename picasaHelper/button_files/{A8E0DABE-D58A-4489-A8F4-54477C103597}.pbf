@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<buttons format="1" version="1">
+  <button id="custombutton/arkh" type="dynamic">
+    <icon name="{A8E0DABE-D58A-4489-A8F4-54477C103597}/arkh" src="pbz"/>
+    <tooltip>Send to the tanarkh http service</tooltip>
+    <label>Tanarkh</label>
+
+    <action verb="hybrid">
+      <param name="url" value="http://localhost:8081/echo"/>
+    </action>
+
+  </button>
+</buttons>

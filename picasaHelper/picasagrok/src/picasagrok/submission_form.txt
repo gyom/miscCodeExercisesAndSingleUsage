@@ -1,0 +1,12 @@
+{:remote-addr 0:0:0:0:0:0:0:1%0, :scheme :http, :query-params {}, :form-params {}, :request-method :post, :query-string nil, :route-params {}, :content-type multipart/form-data; boundary=---------------------------6C4A8E0781F6, :cookies {}, :uri /uploading_images, :server-name localhost, :params {}, :headers {connection keep-alive, user-agent Picasa/3.8.0.240 (gzip), accept-encoding gzip, content-length 85729, content-type multipart/form-data; boundary=---------------------------6C4A8E0781F6, accept */*, host localhost:8081}, :content-length 85729, :server-port 8081, :character-encoding nil, :body #<Input org.mortbay.jetty.HttpParser$Input@5f67198e>}
+Blocked after having read  0  bytes.
+Blocked after having read  3834  bytes.
+uploading_images body : 
+ -----------------------------6C4A8E0781F6
+Content-Disposition: form-data; name="_method"
+Content-Type: text/plain; charset=utf-8
+POST
+-----------------------------6C4A8E0781F6
+Content-Disposition: form-data; name="http://localhost:50275/d623a710d60b105467d0cf048379e213/image/dd0a1f3d234bcf0b.jpg"; filename="Screen shot 2010-08-02 at 2.29.37 AM.jpg"
+Content-Type: image/jpeg
+????JFIF??jExifII12i?? [CUT by Guillaume]

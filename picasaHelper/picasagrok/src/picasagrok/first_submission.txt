@@ -1,0 +1,15 @@
+copied from browser
+
+POST{:remote-addr "0:0:0:0:0:0:0:1%0", :scheme :http, :query-params {}, :form-params {}, :request-method :post, :query-string nil, :route-params {}, :content-type "multipart/form-data; boundary=---------------------------EA85CD6C94D6", :cookies {}, :uri "/echo", :server-name "localhost", :params {},
+
+:headers {"connection" "keep-alive", "content-length" "2000", "accept-encoding" "gzip, deflate", "accept-language" "en-us", "accept" "application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5", "content-type" "multipart/form-data; boundary=---------------------------EA85CD6C94D6", "user-agent" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-us) AppleWebKit/533.17.8 (KHTML, like Gecko)", "origin" "null", "host" "localhost:8081"},
+
+:content-length 2000, :server-port 8081, :character-encoding nil, :body #}
+
+
+
+
+
+reading from the :body InputStream and using hiccup.core/escape-html
+
+-----------------------------898F1FBA0C35 Content-Disposition: form-data; name="rss" Content-Type: text/plain; charset=utf-8 <?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xmlns:photo="http://www.pheed.com/pheed/" xmlns:media="http://search.yahoo.com/msrss/"> <clientlanguage>en</clientlanguage> <channel> <item> <title>Screen shot 2010-07-04 at 9.14.34 PM.png</title> <photo:thumbnail>http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/thumb/708bce5cd1f320a6.jpg</photo:thumbnail> <photo:imgsrc>http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/image/708bce5cd1f320a6.jpg</photo:imgsrc> <media:group> <media:content url="http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/image/708bce5cd1f320a6.jpg" width="430" height="515" isDefault="true"/> <media:thumbnail url="http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/thumb/708bce5cd1f320a6.jpg" width="121" height="144"/> <media:content url="http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/original/708bce5cd1f320a6" width="430" height="515" fileSize="915951" type="image/png"/> </media:group> </item> <item> <title>Screen shot 2010-07-04 at 9.14.35 PM.png</title> <photo:thumbnail>http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/thumb/5f649c0c6ee366d3.jpg</photo:thumbnail> <photo:imgsrc>http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/image/5f649c0c6ee366d3.jpg</photo:imgsrc> <media:group> <media:content url="http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/image/5f649c0c6ee366d3.jpg" width="438" height="526" isDefault="true"/> <media:thumbnail url="http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/thumb/5f649c0c6ee366d3.jpg" width="120" height="144"/> <media:content url="http://localhost:61319/d5a2f6bc788e8a2f487b1228952aee99/original/5f649c0c6ee366d3" width="438" height="526" fileSize="854627" type="image/png"/> </media:group> </item> </channel> </rss> -----------------------------898F1FBA0C35--

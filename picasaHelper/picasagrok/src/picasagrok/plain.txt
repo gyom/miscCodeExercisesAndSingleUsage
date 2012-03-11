@@ -1,0 +1,13 @@
+copied from source
+
+GET{:remote-addr "0:0:0:0:0:0:0:1%0", :scheme :http, :query-params {}, :form-params {}, :request-method :get, :query-string nil, :route-params {}, :content-type nil, :cookies {}, :uri "/echo", :server-name "localhost", :params {}, :headers {"connection" "keep-alive", "keep-alive" "115", "accept-charset" "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "accept-encoding" "gzip,deflate", "accept-language" "en-us,en;q=0.5", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "user-agent" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8", "host" "localhost:8081"}, :content-length nil, :server-port 8081, :character-encoding nil, :body #<Input org.mortbay.jetty.HttpParser$Input@2537e19e>}
+
+
+
+copied from browser
+
+GET{:remote-addr "0:0:0:0:0:0:0:1%0", :scheme :http, :query-params {}, :form-params {}, :request-method :get, :query-string nil, :route-params {}, :content-type nil, :cookies {}, :uri "/echo", :server-name "localhost", :params {},
+
+:headers {"connection" "keep-alive", "keep-alive" "115", "accept-charset" "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "accept-encoding" "gzip,deflate", "accept-language" "en-us,en;q=0.5", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "user-agent" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8", "host" "localhost:8081"},
+
+:content-length nil, :server-port 8081, :character-encoding nil, :body #} 
