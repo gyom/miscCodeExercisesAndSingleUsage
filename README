@@ -7,3 +7,7 @@ Right now here is what is listed in here.
 n-queen : Clojure exercise to list and count all the valid solutions to the n-queen problem.
 
 programmingPearls_interviewPreparation : Exercises to prepare for an interview. Some of those come from the "Programming Pearls" book.
+
+asymptoticBehaviorForParticularRecursiveFormula : Testing the asymptotic behavior for a formula that could have been a new way to sort lists.
+
+stockScraping : Some Python code to fetch historical stock data from Yahoo Finance and put it into a redis database. This is more of a collection of commands pasted into the interpreter than a program to be run sequentially.
