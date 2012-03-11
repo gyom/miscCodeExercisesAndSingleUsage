@@ -1,17 +1,4 @@
-# picasagrok
 
-FIXME: write description
+Projet with the ring http library in clojure. The idea was to use Google Picasa's upload image functionality to export tags and pictures to a database. The goal was to track my pictures better (see http://xkcd.com/512/) because the situation is getting a bit unwieldy.
 
-## Usage
-
-FIXME: write
-
-## Installation
-
-FIXME: write
-
-## License
-
-Copyright (C) 2010 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Development stopped after proof of concept was less than convincing and Picasa was a bit of a disappointment in terms of tagging pictures and managing them.
