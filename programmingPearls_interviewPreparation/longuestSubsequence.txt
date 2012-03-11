@@ -1,0 +1,12 @@
+
+C[(i,j)] = 
+	0                        if i==0 or j==0
+	C[(i-1,j-1)] + 1         if A[i] == A[j]
+	max(C[i-1,j], C[i, j-1]) otherwise
+	
+
+A = "absdsbebnfjdsfdbsnabd"
+B = "asdjbabsbrbebdsbsbsbb"
+	
+C = merge(  dict( [((i,0), 0) for i in range(0, len(A))] ),
+			dict( [((i,0), 0) for i in range(0, len(A))] ) )

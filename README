@@ -1,0 +1,9 @@
+This repository contains a collection of coding exercises, small projects and throwaway code.
+
+I'm putting this here as part of the "github is your new résumé" philosophy, but I realize that it's not really the most flattering pieces of code that I've produced. Some of my best code is in other github directories or just unpublishable because it's 1) code written for an employer, or 2) modifications to existing code for which I can't claim authorship.
+
+Right now here is what is listed in here.
+
+n-queen : Clojure exercise to list and count all the valid solutions to the n-queen problem.
+
+programmingPearls_interviewPreparation : Exercises to prepare for an interview. Some of those come from the "Programming Pearls" book.
