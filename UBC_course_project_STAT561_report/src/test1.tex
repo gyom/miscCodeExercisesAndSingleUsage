@@ -1,0 +1,111 @@
+\documentclass[a4paper]{article}
+
+\usepackage[width=20cm]{geometry}
+\usepackage{xypic}
+
+\usepackage{psfig}
+\usepackage{epsfig}
+\usepackage{pstricks}
+\usepackage{pst-node}
+
+\pagestyle{empty}
+
+\newcommand{\hidden}[1]{\pscirclebox{#1}}
+\newcommand{\Dhidden}[1]{\psframebox{#1}}
+\newcommand{\obs}[1]{\pscirclebox[fillstyle=solid,fillcolor=lightgray]{#1}}
+
+
+\begin{document}
+
+\Huge
+\psset{unit=4,arrowscale=2}
+
+\begin{psmatrix}
+  \psdiabox{Diamond 1} & \psdiabox{Diamond 2}
+  \ncline[linewidth=0.05]{->}{1,1}{1,2}
+\end{psmatrix}
+
+\begin{psmatrix}
+  \psdiabox{Diamond q} & \psdiabox{Diamond q}
+  \ncline[linewidth=0.05]{->}{1,1}{1,2}
+\end{psmatrix}
+
+\begin{psmatrix}[mnode=r]
+  \psdiabox{Diamond 1} & \psdiabox{Diamond 2}
+  \ncline[linewidth=0.05]{->}{1,1}{1,2}
+\end{psmatrix}
+ 
+\begin{psmatrix}[mnode=dia]
+  Diamond 1 & Diamond 2
+  \ncline[linewidth=0.05]{->}{1,1}{1,2}
+\end{psmatrix}
+
+\begin{pspicture}(0,-0.2)(4.4,0.2)
+  \rput(1,0){\dianode{A}{Diamond 1}}
+  \rput(3.4,0){\dianode{B}{Diamond 2}}
+  \ncline[linewidth=0.05]{->}{A}{B}
+\end{pspicture}
+
+\xymatrix{
+ A &*+[F]{\sum_{i=1}^m {i^2}} \\
+   & {\bullet} & D \ar[ul]
+}
+
+\xymatrix{
+ *++[o][F-]{A} \ar[r] &*++[o][F-]{B}
+}
+
+\xymatrix{
+ *+<1.5pc>[o][F-]{Z_i} \ar[dr] 	& 			& *+<1.5pc>[o][F-]{cr_{i}} \ar[dl] \ar[dd]\\
+			& *+<1.5pc>[o][F-]{X_i} \ar[dr]	& \\
+			&			& *+<1.5pc>[o][F-]{Y_i}
+}
+
+
+\begin{figure}[htb!]
+%\centerline{
+%\psset{xunit=10mm,yunit=10mm}
+\psset{arrows=->,arrowscale=2}
+\psset{arcangle=45}
+\begin{psmatrix}[rowsep=4mm,colsep=6mm]
+[name=X1]\obs{$X_1$} & [name=X2]\obs{$X_2$}
+   & [name=X3]\obs{$X_3$} & [name=X4]\obs{$X_4$} 
+\end{psmatrix}
+\ncline{X1}{X2}
+\ncarc{X1}{X3}
+\ncline{X2}{X3}
+\ncarc{X2}{X4}
+\ncline{X3}{X4}
+%}
+\caption{
+A trigram (second-order Markov) model, which defines
+$P(X_t|X_{t-1}, X_{t-2})$.
+}
+\label{fig:trigram}
+\end{figure}
+
+\begin{figure}[htb!]
+%\centerline{
+%\psset{xunit=10mm,yunit=10mm}
+\psset{arrows=->,arrowscale=2}
+\psset{arcangle=45}
+\begin{psmatrix}[rowsep=4mm,colsep=6mm]
+[name=Z]\hidden{$Z$} & & [name=U]\hidden{$U$}\\ [0pt]
+[name=R]\hidden{$R$} & [name=X]\hidden{$X$} & \\
+& & [name=Y]\hidden{$Y$}
+\end{psmatrix}
+\ncline{Z}{X}
+\ncline{X}{Y}
+\ncline{U}{X}
+\ncline{U}{Y}
+%\ncarc{X1}{X3}
+%\ncline{X2}{X3}
+\caption{
+A trigram (second-order Markov) model, which defines
+$P(X_t|X_{t-1}, X_{t-2})$.
+}
+\end{figure}
+
+
+
+\end{document}

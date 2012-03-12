@@ -1,0 +1,13 @@
+\begin{thebibliography}{Pea00}
+
+\bibitem[CP97]{chickering1997cst}
+D.M. Chickering and J.~Pearl.
+\newblock {A clinician’s tool for analyzing non-compliance}.
+\newblock {\em Computing Science and Statistics}, 29(2):424--431, 1997.
+
+\bibitem[Pea00]{pearl2000cmr}
+J.~Pearl.
+\newblock {\em {Causality: Models, Reasoning, and Inference}}.
+\newblock Cambridge University Press, 2000.
+
+\end{thebibliography}
